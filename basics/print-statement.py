@@ -37,32 +37,35 @@ print ("sum: ", 5+3)
  
 #print(f"text {var}")
  
-# name = "Alice"
-# age = 23
-# print (f"My name is, {name} and i am {age} years old.")
-# a=5
-# b=10
-# print (f"The sum of {a} and {b} is {a+b}.")
-# pi = 3.14159
-# print (f"The value of pi is approximately {pi:.2f}.")
-# num  = 7
-# print (f"The number is {num:03d}.")
+name = "Alice"
+age = 23
+print (f"My name is, {name} and i am {age} years old.")
+
+a=5
+b=10
+print (f"The sum of {a} and {b} is {a+b}.")
+
+pi = 3.14159
+print (f"The value of pi is approximately {pi:.2f}.")
+
+num  = 7
+print (f"The number is {num:03d}.")
  
-# text = "Hi"
-# print (f"{text:<10}") # left align
-# print (f"{text:>10}") # right align
-# print (f"{text:^10}") # center align
+text = "Hi"
+print (f"{text:<10}") # left align
+print (f"{text:>10}") # right align
+print (f"{text:^10}") # center align
  
-# score = 0.85
-# print (f"Your score is {score:.2%}")
-# print (f"Your score is {score:.0%}")
+score = 0.85
+print (f"Your score is {score:.2%}")
+print (f"Your score is {score:.0%}")
  
-# age = 18
-# print (f"Status: {'Adult' if age >= 18 else 'Minor'}")
+age = 18
+print (f"Status: {'Adult' if age >= 18 else 'Minor'}")
  
-# number = 1000000
-# print (f"The number is {number:,}")
-# print (f"The number is {number:,.2f}")
+number = 1000000
+print (f"The number is {number:,}")
+print (f"The number is {number:,.2f}")
  
 #dates
 from datetime import datetime
